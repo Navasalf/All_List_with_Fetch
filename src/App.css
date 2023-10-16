@@ -1,0 +1,89 @@
+.container {
+  height: 500px;
+  width: 500px;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 100px;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(240, 190, 190);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.list-group {
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.list-group-item{
+  padding-left: 40px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  float: right;
+  right: 0;
+  color: rgb(240, 190, 190)
+}
+
+ul {
+  padding: 0;
+  box-shadow: 0px 0px 1px 1px rgb(139, 139, 139);
+  margin-bottom: 0;
+}
+
+.list-group :last-child {
+  margin: 0;
+  padding: 1px 1px 1px 5px !important;
+
+}
+
+p {
+  margin: 1px;
+  font-size: 12px;
+}
+
+input {
+  height: 35px;
+  width: 410px;
+  margin: 0px;
+  padding: 0px;
+  border: solid 0;
+  border-color: transparent;
+  outline-style: none;
+}
+
+.delete-button {
+  display: none;
+}
+
+li:hover .delete-button {
+  display: inline-block;
+}
+
+.one {
+  margin: auto;
+  height: 6px;
+  width: 465px;
+  border: solid 1px rgb(163, 162, 162);
+  margin-top: 0;
+}
+
+.two {
+  margin: auto;
+  height: 6px;
+  width: 450px;
+  border-top: none;
+  border: solid 1px rgb(163, 162, 162);
+  margin-top: 0;
+}
+
+
+
+
